@@ -10,7 +10,7 @@
   <a href="LICENSE"><img alt="License: Apache-2.0" src="https://img.shields.io/github/license/lowlysre/setup-filemoverexpress"></a>
 </p>
 
-# Setup AWS Labs' File Mover Express
+# Setup AWS Labs File Mover Express
 
 Install the AWS Labs [File Mover Express](https://github.com/awslabs/filemoverexpress) CLI in GitHub Actions, add it to `PATH`, and optionally configure an S3 transfer profile. The action verifies the download against its SHA-256 digest and, on Windows and macOS, Amazon's code signature. It doesn't perform transfers itself: your workflow runs the CLI.
 
